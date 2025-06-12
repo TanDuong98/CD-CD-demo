@@ -20,7 +20,7 @@ jobs:
         run: npm run build
 
       - name: Run test and coverage
-        run: npm run coverage
+        run: npm run test -- --coverage
 
       - name: Report Coverage
         uses: davelosert/vitest-coverage-report-action@v2
