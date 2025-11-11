@@ -10,6 +10,6 @@ describe("sum", () => {
   });
 
   test("adds a number with zero", () => {
-    expect(sum(9, 0)).toBe(10);
+    expect(sum(9, 0)).toBe(9);
   });
 });
